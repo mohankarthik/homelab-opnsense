@@ -240,7 +240,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <ipaddr>pppoe</ipaddr>
     </opt6>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1767011956.00" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1767720413.05" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -570,6 +570,21 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <cnames/>
       <client_id/>
       <hwaddr>ac:3e:b1:a9:56:15</hwaddr>
+      <lease_time/>
+      <ignore>0</ignore>
+      <set_tag/>
+      <descr/>
+      <comments/>
+      <aliases/>
+    </hosts>
+    <hosts uuid="f5e428b9-80f2-47a9-a153-29ff716b047d">
+      <host>karti-mba</host>
+      <domain>internal</domain>
+      <local>1</local>
+      <ip>192.168.0.11</ip>
+      <cnames/>
+      <client_id/>
+      <hwaddr>10:5a:95:5b:15:fc</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -913,9 +928,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.10.51</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1767675260.44</time>
+    <username>root@192.168.0.20</username>
+    <description>/api/dnsmasq/settings/add_host/ made changes</description>
+    <time>1767720413.05</time>
   </revision>
   <OPNsense>
     <wireguard>
