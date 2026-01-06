@@ -150,7 +150,7 @@
         <backupcount>60</backupcount>
         <prefixhostname>0</prefixhostname>
       </sftp>
-      <git version="1.0.0" persisted_at="1767665746.49" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1767665809.83" description="Git Backup Settings">
         <enabled>1</enabled>
         <url>ssh://github.com:mohankarthik/homelab.git</url>
         <branch>master</branch>
@@ -915,7 +915,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.10.51</username>
     <description>/diag_backup.php made changes</description>
-    <time>1767665746.49</time>
+    <time>1767665809.83</time>
   </revision>
   <OPNsense>
     <wireguard>
