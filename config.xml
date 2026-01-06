@@ -240,7 +240,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <ipaddr>pppoe</ipaddr>
     </opt6>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1767720413.05" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1767720415.04" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -929,8 +929,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/api/dnsmasq/settings/add_host/ made changes</description>
-    <time>1767720413.05</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1767720415.04</time>
   </revision>
   <OPNsense>
     <wireguard>
