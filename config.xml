@@ -150,9 +150,9 @@
         <backupcount>60</backupcount>
         <prefixhostname>0</prefixhostname>
       </sftp>
-      <git version="1.0.0" persisted_at="1767665809.83" description="Git Backup Settings">
+      <git version="1.0.0" persisted_at="1767675260.44" description="Git Backup Settings">
         <enabled>1</enabled>
-        <url>ssh://github.com:mohankarthik/homelab.git</url>
+        <url>ssh://github.com/mohankarthik/homelab-opnsense.git</url>
         <branch>master</branch>
         <force_push>1</force_push>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
@@ -915,7 +915,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.10.51</username>
     <description>/diag_backup.php made changes</description>
-    <time>1767665809.83</time>
+    <time>1767675260.44</time>
   </revision>
   <OPNsense>
     <wireguard>
