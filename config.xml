@@ -929,8 +929,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1767720415.04</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1767941251.51</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1403,7 +1403,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1767010673.95" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1767941251.51" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1440,8 +1440,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <qnameminstrict>0</qnameminstrict>
         <extendedstatistics>0</extendedstatistics>
         <logqueries>1</logqueries>
-        <logreplies>0</logreplies>
-        <logtagqueryreply>0</logtagqueryreply>
+        <logreplies>1</logreplies>
+        <logtagqueryreply>1</logtagqueryreply>
         <logservfail>0</logservfail>
         <loglocalactions>0</loglocalactions>
         <logverbosity>1</logverbosity>
