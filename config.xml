@@ -111,15 +111,12 @@
       <subscription/>
       <reboot>0</reboot>
     </firmware>
-    <dnsserver>1.1.1.1</dnsserver>
-    <dnsserver>1.0.0.1</dnsserver>
-    <dnsserver>8.8.8.8</dnsserver>
-    <dnsserver>8.8.4.4</dnsserver>
+    <dnsserver/>
     <language>en_US</language>
-    <dns1gw>WAN_PPPOE</dns1gw>
-    <dns2gw>WAN_PPPOE</dns2gw>
-    <dns3gw>WAN_PPPOE</dns3gw>
-    <dns4gw>WAN_PPPOE</dns4gw>
+    <dns1gw>none</dns1gw>
+    <dns2gw>none</dns2gw>
+    <dns3gw>none</dns3gw>
+    <dns4gw>none</dns4gw>
     <dns5gw>none</dns5gw>
     <dns6gw>none</dns6gw>
     <dns7gw>none</dns7gw>
@@ -928,9 +925,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.20</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1767941251.51</time>
+    <username>root@192.168.10.147</username>
+    <description>/system_general.php made changes</description>
+    <time>1767961455.48</time>
   </revision>
   <OPNsense>
     <wireguard>
