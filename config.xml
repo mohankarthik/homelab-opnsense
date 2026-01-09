@@ -926,8 +926,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.147</username>
-    <description>/api/unbound/settings/addDot/ made changes</description>
-    <time>1767961612.22</time>
+    <description>/api/unbound/settings/addDnsbl/ made changes</description>
+    <time>1767961892.13</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1400,7 +1400,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1767961612.22" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1767961892.13" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1465,7 +1465,21 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <acls>
         <default_action>allow</default_action>
       </acls>
-      <dnsbl/>
+      <dnsbl>
+        <blocklist uuid="12cdfaea-47a2-45c4-8187-559e5b538b54">
+          <enabled>1</enabled>
+          <type>hgz003</type>
+          <lists/>
+          <allowlists/>
+          <blocklists/>
+          <wildcards/>
+          <source_nets/>
+          <address/>
+          <nxdomain>0</nxdomain>
+          <cache_ttl>72000</cache_ttl>
+          <description>Hagezi Multi Pro</description>
+        </blocklist>
+      </dnsbl>
       <forwarding>
         <enabled>0</enabled>
       </forwarding>
