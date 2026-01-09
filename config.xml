@@ -106,7 +106,7 @@
     <firmware version="1.0.1" persisted_at="1764656202.72">
       <mirror/>
       <flavour/>
-      <plugins>os-git-backup,os-mdns-repeater,os-sftp-backup</plugins>
+      <plugins>os-ddclient,os-git-backup,os-mdns-repeater,os-sftp-backup</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -925,9 +925,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.10.147</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1767961995.49</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1767978512.53</time>
   </revision>
   <OPNsense>
     <wireguard>
