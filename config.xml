@@ -954,9 +954,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.10.147</username>
-    <description>/interfaces.php made changes</description>
-    <time>1767978702.23</time>
+    <username>root@192.168.10.20</username>
+    <description>/api/dyndns/settings/set made changes</description>
+    <time>1768132747.04</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1622,13 +1622,13 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <interfaces>opt2,opt4,opt5,opt1,lan,opt3</interfaces>
       <blocklist/>
     </MDNSRepeater>
-    <DynDNS version="1.5.1" persisted_at="1767628775.58" description="Dynamic DNS client">
+    <DynDNS version="1.5.1" persisted_at="1768132747.04" description="Dynamic DNS client">
       <general>
         <enabled>1</enabled>
         <verbose>0</verbose>
         <allowipv6>0</allowipv6>
         <daemon_delay>300</daemon_delay>
-        <backend>opnsense</backend>
+        <backend>ddclient</backend>
       </general>
       <accounts/>
     </DynDNS>
