@@ -952,6 +952,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <ipprotocol>inet6</ipprotocol>
       <statetype>keep state</statetype>
       <direction>in</direction>
+      <disabled>1</disabled>
+      <log>1</log>
       <quick>1</quick>
       <protocol>icmp</protocol>
       <source>
@@ -962,7 +964,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       </destination>
       <updated>
         <username>root@192.168.10.20</username>
-        <time>1768133894.07</time>
+        <time>1768134043.88</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -981,7 +983,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.10.20</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1768133894.14</time>
+    <time>1768134043.95</time>
   </revision>
   <OPNsense>
     <wireguard>
