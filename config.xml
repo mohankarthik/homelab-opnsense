@@ -981,8 +981,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1768134072.22</time>
+    <description>/api/dyndns/accounts/add_item/ made changes</description>
+    <time>1768134575.56</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1648,7 +1648,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <interfaces>opt2,opt4,opt5,opt1,lan,opt3</interfaces>
       <blocklist/>
     </MDNSRepeater>
-    <DynDNS version="1.5.1" persisted_at="1768132747.04" description="Dynamic DNS client">
+    <DynDNS version="1.5.1" persisted_at="1768134575.56" description="Dynamic DNS client">
       <general>
         <enabled>1</enabled>
         <verbose>0</verbose>
@@ -1656,7 +1656,27 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <daemon_delay>300</daemon_delay>
         <backend>ddclient</backend>
       </general>
-      <accounts/>
+      <accounts>
+        <account uuid="6babdbbf-41e5-40da-aeb2-35c296135d9f">
+          <enabled>1</enabled>
+          <service>cloudflare</service>
+          <protocol/>
+          <server/>
+          <username/>
+          <password/>
+          <resourceId/>
+          <hostnames>home.mohankarthik.dev</hostnames>
+          <wildcard>0</wildcard>
+          <zone>mohankarthik.dev</zone>
+          <checkip>if</checkip>
+          <dynipv6host/>
+          <checkip_timeout>10</checkip_timeout>
+          <force_ssl>1</force_ssl>
+          <ttl>300</ttl>
+          <interface>opt6</interface>
+          <description/>
+        </account>
+      </accounts>
     </DynDNS>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1764656202.78">
