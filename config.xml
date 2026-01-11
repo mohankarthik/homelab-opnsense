@@ -981,8 +981,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/dyndns/accounts/add_item/ made changes</description>
-    <time>1768134575.56</time>
+    <description>/api/dyndns/settings/set made changes</description>
+    <time>1768134577.66</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1648,7 +1648,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <interfaces>opt2,opt4,opt5,opt1,lan,opt3</interfaces>
       <blocklist/>
     </MDNSRepeater>
-    <DynDNS version="1.5.1" persisted_at="1768134575.56" description="Dynamic DNS client">
+    <DynDNS version="1.5.1" persisted_at="1768134577.66" description="Dynamic DNS client">
       <general>
         <enabled>1</enabled>
         <verbose>0</verbose>
