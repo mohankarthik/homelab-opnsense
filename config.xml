@@ -981,8 +981,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/api/dyndns/settings/set made changes</description>
-    <time>1768134875.11</time>
+    <description>/api/dyndns/accounts/set_item/6babdbbf-41e5-40da-aeb2-35c296135d9f made changes</description>
+    <time>1768134961.81</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1648,7 +1648,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <interfaces>opt2,opt4,opt5,opt1,lan,opt3</interfaces>
       <blocklist/>
     </MDNSRepeater>
-    <DynDNS version="1.5.1" persisted_at="1768134875.11" description="Dynamic DNS client">
+    <DynDNS version="1.5.1" persisted_at="1768134961.81" description="Dynamic DNS client">
       <general>
         <enabled>1</enabled>
         <verbose>1</verbose>
@@ -1663,7 +1663,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
           <protocol/>
           <server/>
           <username>cloudflare@mohankarthik.dev</username>
-          <password>$LdtCg2KxQD9RUpW@zdu</password>
+          <password>QKmravE1tqzApTMFoFkGWVBXgH6hshmtzQ1dcVhW</password>
           <resourceId/>
           <hostnames>home.mohankarthik.dev</hostnames>
           <wildcard>0</wildcard>
