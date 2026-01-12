@@ -904,6 +904,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <time>1757113608.11</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <log>1</log>
     </rule>
     <rule uuid="1fd661e5-2a0b-4feb-8682-9f248a7a9289">
       <type>pass</type>
@@ -1013,8 +1014,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.51</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1768205698.77</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1768215180.70</time>
   </revision>
   <OPNsense>
     <wireguard>
