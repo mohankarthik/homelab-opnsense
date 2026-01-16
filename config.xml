@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>opnsense-dark</theme>
-  <sysctl version="1.0.1" persisted_at="1764656202.86">
-    <item/>
-  </sysctl>
+  <sysctl version="1.0.2" persisted_at="1768581411.51" description="System Tunables"/>
   <system>
     <optimization>normal</optimization>
     <hostname>OPNsense</hostname>
@@ -1012,9 +1010,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.10.20</username>
-    <description>/api/dnsmasq/settings/set made changes</description>
-    <time>1768232402.86</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1768581412.45</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1710,6 +1708,15 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         </account>
       </accounts>
     </DynDNS>
+    <Hostwatch version="1.0.0" persisted_at="1768581412.40" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>0</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1764656202.78">
     <disablepreempt>0</disablepreempt>
