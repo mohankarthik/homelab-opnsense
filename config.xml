@@ -57,6 +57,26 @@
       <descr>Mohan Karthik Perumal</descr>
       <dashboard/>
     </user>
+    <user uuid="95e984ab-aad2-47b8-ba2a-3840defa1a77">
+      <uid>2001</uid>
+      <name>ansible</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$qXGRcDjTNODpd317WKEQXuHjEBq4EfmozpnxPbe4pzRo/KGDJZXbi</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email>ansible@mohankarthik.dev</email>
+      <apikeys/>
+      <priv>page-diagnostics-backup-restore,page-diagnostics-configurationhistory,page-wizard-system</priv>
+      <language/>
+      <descr>Ansible Automation</descr>
+      <dashboard/>
+    </user>
     <timezone>Asia/Kolkata</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
@@ -162,26 +182,6 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <password/>
       </git>
     </backup>
-    <user uuid="95e984ab-aad2-47b8-ba2a-3840defa1a77">
-      <uid>2001</uid>
-      <name>ansible</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$qXGRcDjTNODpd317WKEQXuHjEBq4EfmozpnxPbe4pzRo/KGDJZXbi</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email>ansible@mohankarthik.dev</email>
-      <apikeys/>
-      <priv>page-diagnostics-backup-restore,page-diagnostics-configurationhistory,page-wizard-system</priv>
-      <language/>
-      <descr>Ansible Automation</descr>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <lan>
@@ -1031,8 +1031,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>user "ansible" changed</description>
-    <time>1768636724.36</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1768636735.05</time>
   </revision>
   <OPNsense>
     <wireguard>
