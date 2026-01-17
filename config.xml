@@ -118,7 +118,6 @@
       <rekeylimit/>
       <enabled>enabled</enabled>
       <permitrootlogin>1</permitrootlogin>
-      <passwordauth>1</passwordauth>
     </ssh>
     <rrdbackup>24</rrdbackup>
     <netflowbackup>24</netflowbackup>
@@ -1031,8 +1030,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>user "ansible" changed</description>
-    <time>1768636769.12</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1768636862.99</time>
   </revision>
   <OPNsense>
     <wireguard>
