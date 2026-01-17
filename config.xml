@@ -98,6 +98,7 @@
       <rekeylimit/>
       <enabled>enabled</enabled>
       <permitrootlogin>1</permitrootlogin>
+      <passwordauth>1</passwordauth>
     </ssh>
     <rrdbackup>24</rrdbackup>
     <netflowbackup>24</netflowbackup>
@@ -135,7 +136,6 @@
       <graceperiod/>
       <passwordFirst>1</passwordFirst>
     </authserver>
-    <serialusb/>
     <backup>
       <sftp version="1.0.0" persisted_at="1767665124.09" description="OPNsense sftp Backup Settings">
         <enabled>0</enabled>
@@ -1010,9 +1010,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1768581412.45</time>
+    <username>root@192.168.0.20</username>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1768636575.82</time>
   </revision>
   <OPNsense>
     <wireguard>
