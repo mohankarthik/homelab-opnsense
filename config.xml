@@ -14,7 +14,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all</priv>
-      <member>0,2000</member>
+      <member>0,2000,2001</member>
       <source_networks/>
     </group>
     <user uuid="24c3efe8-4da5-45b7-80e9-5ac0909db4e6">
@@ -65,7 +65,7 @@
       <expires/>
       <authorizedkeys/>
       <otp_seed/>
-      <shell/>
+      <shell>/bin/sh</shell>
       <password>$2y$11$qXGRcDjTNODpd317WKEQXuHjEBq4EfmozpnxPbe4pzRo/KGDJZXbi</password>
       <pwd_changed_at/>
       <landing_page/>
@@ -1031,8 +1031,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1768636735.05</time>
+    <description>user "ansible" changed</description>
+    <time>1768636769.12</time>
   </revision>
   <OPNsense>
     <wireguard>
