@@ -23,7 +23,7 @@
       <disabled>0</disabled>
       <scope>system</scope>
       <expires/>
-      <authorizedkeys>c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUlGWVhRd2dzV0tMMDZBd2ZCSDdKYlBZQ0lsSW94REJzK0JocHkvakoyVTM=</authorizedkeys>
+      <authorizedkeys>c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUdCbTBMUlYzMGNZQTJBa2NTMXBoU3gvQXlpTVc1aU5RbnRNU3ZaTy9iazc=</authorizedkeys>
       <otp_seed/>
       <shell>/bin/sh</shell>
       <password>$2y$11$WdW8WJwd743FGGZ.w.7ErOBxahTC3jrXobo4ljYRaqEnD4B0Hk0Wm</password>
@@ -1009,9 +1009,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.20</username>
+    <username>root@192.168.10.20</username>
     <description>user "root" changed</description>
-    <time>1768638082.48</time>
+    <time>1768659968.98</time>
   </revision>
   <OPNsense>
     <wireguard>
