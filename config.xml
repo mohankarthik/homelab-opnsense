@@ -25,7 +25,7 @@
       <expires/>
       <authorizedkeys>c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUlGWVhRd2dzV0tMMDZBd2ZCSDdKYlBZQ0lsSW94REJzK0JocHkvakoyVTM=</authorizedkeys>
       <otp_seed/>
-      <shell/>
+      <shell>/bin/sh</shell>
       <password>$2y$11$WdW8WJwd743FGGZ.w.7ErOBxahTC3jrXobo4ljYRaqEnD4B0Hk0Wm</password>
       <pwd_changed_at/>
       <landing_page/>
@@ -1011,7 +1011,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.0.20</username>
     <description>user "root" changed</description>
-    <time>1768637812.26</time>
+    <time>1768638082.48</time>
   </revision>
   <OPNsense>
     <wireguard>
