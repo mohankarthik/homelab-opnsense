@@ -63,7 +63,7 @@
       <disabled>0</disabled>
       <scope>user</scope>
       <expires/>
-      <authorizedkeys/>
+      <authorizedkeys>c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUlGWVhRd2dzV0tMMDZBd2ZCSDdKYlBZQ0lsSW94REJzK0JocHkvakoyVTM=</authorizedkeys>
       <otp_seed/>
       <shell>/bin/sh</shell>
       <password>$2y$11$qXGRcDjTNODpd317WKEQXuHjEBq4EfmozpnxPbe4pzRo/KGDJZXbi</password>
@@ -1030,8 +1030,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1768636862.99</time>
+    <description>user "ansible" changed</description>
+    <time>1768636934.43</time>
   </revision>
   <OPNsense>
     <wireguard>
