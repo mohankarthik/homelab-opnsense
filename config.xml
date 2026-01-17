@@ -170,7 +170,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <expires/>
       <authorizedkeys/>
       <otp_seed/>
-      <shell>/bin/sh</shell>
+      <shell/>
       <password>$2y$11$qXGRcDjTNODpd317WKEQXuHjEBq4EfmozpnxPbe4pzRo/KGDJZXbi</password>
       <pwd_changed_at/>
       <landing_page/>
@@ -1031,8 +1031,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>user "ansible" created</description>
-    <time>1768636706.54</time>
+    <description>user "ansible" changed</description>
+    <time>1768636724.36</time>
   </revision>
   <OPNsense>
     <wireguard>
