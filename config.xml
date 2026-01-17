@@ -1010,8 +1010,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>user "root" changed</description>
-    <time>1768659968.98</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1768663134.21</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1484,7 +1484,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1767961892.13" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768663134.21" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1668,7 +1668,20 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
           <description/>
         </dot>
       </dots>
-      <hosts/>
+      <hosts>
+        <host uuid="65097360-ab79-44d6-ab69-b8586e1a4939">
+          <enabled>1</enabled>
+          <hostname>monitor</hostname>
+          <domain>home</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl>3600</ttl>
+          <server>192.168.10.11</server>
+          <txtdata/>
+          <description/>
+        </host>
+      </hosts>
       <aliases/>
     </unboundplus>
     <MDNSRepeater version="1.0.1" persisted_at="1767010858.35" description="mdns-repeater settings">
