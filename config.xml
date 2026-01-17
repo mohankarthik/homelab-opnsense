@@ -31,7 +31,7 @@
       <landing_page/>
       <comment/>
       <email/>
-      <apikeys/>
+      <apikeys>iFJm97y9LTnaGhIeV/vzGbJKzzDQpP+G4AmnVzccuBx6Sml/xa5ZOjwNh907hIFopKhYboZw5lgsRr47|$6$$J2HO/qgcIdy8xuBm/PfoqyCRoD0/lFgL.Z7VzMfn1fagSGuV5OiqKkXNYU/.0LNec1gCgMe0HMNqrGaOLMNJJ0</apikeys>
       <priv/>
       <language/>
       <descr>System Administrator</descr>
@@ -1010,8 +1010,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1768664837.77</time>
+    <description>/api/auth/user/add_api_key/root made changes</description>
+    <time>1768666311.48</time>
   </revision>
   <OPNsense>
     <wireguard>
