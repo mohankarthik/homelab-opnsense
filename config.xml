@@ -270,7 +270,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <spoofmac/>
     </opt7>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768232402.86" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768747425.76" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -510,21 +510,6 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <cnames/>
       <client_id/>
       <hwaddr>a8:29:48:ca:43:50</hwaddr>
-      <lease_time/>
-      <ignore>0</ignore>
-      <set_tag/>
-      <descr/>
-      <comments/>
-      <aliases/>
-    </hosts>
-    <hosts uuid="2f52d532-db41-4c29-ad89-71640b1be007">
-      <host>pve</host>
-      <domain>internal</domain>
-      <local>1</local>
-      <ip>192.168.0.2</ip>
-      <cnames/>
-      <client_id/>
-      <hwaddr>00:e0:b4:69:3c:3f</hwaddr>
       <lease_time/>
       <ignore>0</ignore>
       <set_tag/>
@@ -1010,8 +995,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/auth/user/add_api_key/root made changes</description>
-    <time>1768666311.48</time>
+    <description>/api/dnsmasq/settings/del_host/2f52d532-db41-4c29-ad89-71640b1be007 made changes</description>
+    <time>1768747425.76</time>
   </revision>
   <OPNsense>
     <wireguard>
