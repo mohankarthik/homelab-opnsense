@@ -65,11 +65,11 @@
       <ssl-ciphers/>
       <interfaces/>
       <compression>9</compression>
-      <ssl-hsts>1</ssl-hsts>
       <authmode>Local Database</authmode>
       <ssl-certref>6930619a0867a</ssl-certref>
       <session_timeout>99999</session_timeout>
       <nodnsrebindcheck>1</nodnsrebindcheck>
+      <nohttpreferercheck>1</nohttpreferercheck>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -937,7 +937,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.10.20</username>
     <description>/system_advanced_admin.php made changes</description>
-    <time>1768751517.11</time>
+    <time>1768751530.73</time>
   </revision>
   <OPNsense>
     <wireguard>
