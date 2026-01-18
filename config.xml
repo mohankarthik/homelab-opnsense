@@ -70,7 +70,7 @@
       <session_timeout>99999</session_timeout>
       <nodnsrebindcheck>1</nodnsrebindcheck>
       <nohttpreferercheck>1</nohttpreferercheck>
-      <althostnames>192.168.0.1</althostnames>
+      <althostnames>192.168.0.1 router.internal</althostnames>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -938,7 +938,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.10.20</username>
     <description>/system_advanced_admin.php made changes</description>
-    <time>1768751588.97</time>
+    <time>1768752159.53</time>
   </revision>
   <OPNsense>
     <wireguard>
