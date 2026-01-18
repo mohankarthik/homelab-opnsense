@@ -270,7 +270,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <spoofmac/>
     </opt7>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768747425.86" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768747427.62" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -935,8 +935,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/dnsmasq/settings/del_host/e1e8b096-aca5-4b17-ab38-3cab1d47be7e made changes</description>
-    <time>1768747425.86</time>
+    <description>/api/dnsmasq/settings/set made changes</description>
+    <time>1768747427.62</time>
   </revision>
   <OPNsense>
     <wireguard>
