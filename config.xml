@@ -60,8 +60,8 @@
     <timezone>Asia/Kolkata</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
-      <protocol>https</protocol>
-      <port>443</port>
+      <protocol>http</protocol>
+      <port>80</port>
       <ssl-ciphers/>
       <interfaces/>
       <compression>9</compression>
@@ -935,8 +935,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/unbound/settings/set_host_override/ea00e0e6-cfb8-495f-aa1f-9837d1ac37bd made changes</description>
-    <time>1768748003.76</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1768751080.73</time>
   </revision>
   <OPNsense>
     <wireguard>
