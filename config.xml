@@ -270,7 +270,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <spoofmac/>
     </opt7>
   </interfaces>
-  <dnsmasq version="1.0.8" persisted_at="1768747425.84" description="Dnsmasq DNS and DHCP">
+  <dnsmasq version="1.0.8" persisted_at="1768747425.86" description="Dnsmasq DNS and DHCP">
     <enable>1</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -307,21 +307,6 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
-    <hosts uuid="e1e8b096-aca5-4b17-ab38-3cab1d47be7e">
-      <host>karti-windows</host>
-      <domain>internal</domain>
-      <local>1</local>
-      <ip>192.168.0.20</ip>
-      <cnames/>
-      <client_id/>
-      <hwaddr>d8:43:ae:67:e7:b1,12:22:ae:67:e7:b1</hwaddr>
-      <lease_time/>
-      <ignore>0</ignore>
-      <set_tag/>
-      <descr/>
-      <comments/>
-      <aliases/>
-    </hosts>
     <hosts uuid="88656537-79bc-4670-9fdd-f9ee9edb78f2">
       <host>switch</host>
       <domain>guest</domain>
@@ -950,8 +935,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/dnsmasq/settings/del_host/45de2d34-cc50-43d6-afae-15dc1bba8458 made changes</description>
-    <time>1768747425.84</time>
+    <description>/api/dnsmasq/settings/del_host/e1e8b096-aca5-4b17-ab38-3cab1d47be7e made changes</description>
+    <time>1768747425.86</time>
   </revision>
   <OPNsense>
     <wireguard>
