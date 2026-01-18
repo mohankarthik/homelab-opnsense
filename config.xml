@@ -936,7 +936,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.10.20</username>
     <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1768747512.59</time>
+    <time>1768747544.94</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1409,7 +1409,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768747512.59" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768747544.94" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1663,6 +1663,18 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
           <mx/>
           <ttl>3600</ttl>
           <server>192.168.0.11</server>
+          <txtdata/>
+          <description/>
+        </host>
+        <host uuid="dc9d2645-43b1-466f-87f1-df2aef5ff399">
+          <enabled>1</enabled>
+          <hostname>hub</hostname>
+          <domain>home</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl>3600</ttl>
+          <server>192.168.10.11</server>
           <txtdata/>
           <description/>
         </host>
