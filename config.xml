@@ -935,8 +935,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1768747544.94</time>
+    <description>/api/unbound/settings/set_host_override/c9933564-df80-447e-aeb9-8def9fc69721 made changes</description>
+    <time>1768747948.96</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1409,7 +1409,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768747544.94" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768747948.96" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1644,7 +1644,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         </host>
         <host uuid="c9933564-df80-447e-aeb9-8def9fc69721">
           <enabled>1</enabled>
-          <hostname>switch</hostname>
+          <hostname>sw1</hostname>
           <domain>internal</domain>
           <rr>A</rr>
           <mxprio/>
