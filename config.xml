@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.1</username>
-    <description>/api/unbound/settings/set_host_override/39e73614-828b-4353-b14d-7a8cb2f804d1 made changes</description>
-    <time>1768838984.05</time>
+    <description>/api/unbound/settings/set_host_override/1876f5f5-37c5-43c7-9ee9-387032f7c0ba made changes</description>
+    <time>1768838989.06</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1411,7 +1411,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768838984.05" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768838989.06" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1647,7 +1647,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <host uuid="1876f5f5-37c5-43c7-9ee9-387032f7c0ba">
           <enabled>1</enabled>
           <hostname>ap1</hostname>
-          <domain>local</domain>
+          <domain>home.arpa</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
