@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1768837131.42</time>
+    <description>/api/caddy/general/set made changes</description>
+    <time>1768837163.32</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,9 +1843,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </cert>
   <syslog/>
   <Pischem>
-    <caddy version="1.3.7" persisted_at="1768837092.18" description="Caddy Reverse Proxy">
+    <caddy version="1.3.7" persisted_at="1768837163.31" description="Caddy Reverse Proxy">
       <general>
-        <enabled>0</enabled>
+        <enabled>1</enabled>
         <EnableLayer4>0</EnableLayer4>
         <HttpPort/>
         <HttpsPort/>
