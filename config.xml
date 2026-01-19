@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.10.20</username>
-    <description>/api/caddy/reverse_proxy/set_handle/3960c5bd-b345-4cc5-b2dc-741c1dddddd6 made changes</description>
-    <time>1768837388.58</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1768837482.97</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1411,7 +1411,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768748003.76" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768837482.97" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1677,6 +1677,18 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
           <mx/>
           <ttl>3600</ttl>
           <server>192.168.10.11</server>
+          <txtdata/>
+          <description/>
+        </host>
+        <host uuid="8bad4ac9-953f-4d0e-a1ec-c269c3b7b03d">
+          <enabled>1</enabled>
+          <hostname>opnsense</hostname>
+          <domain>local</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl>3600</ttl>
+          <server>192.168.0.1</server>
           <txtdata/>
           <description/>
         </host>
