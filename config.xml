@@ -936,9 +936,9 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.10.20</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1768752159.53</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1768837092.18</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1842,4 +1842,49 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
     <prv>LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUpRd0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQ1Mwd2dna3BBZ0VBQW9JQ0FRRFJjaVZWZjhtMVNRdzMKdktWREJqRnVrS0RFME1EWTR5cGFvNklaME5ZbUg5RnZNZmJaQ2Z0Zm5RMWJIbXd1MGZYc2hnY0ZkMzVKdkp0eQppN01VdUhlWEk2aHZETnU4UkM3Y2xvRTg0SXo1N09ROG4xNkcwVDJ6YyszWEsxUzNGQzBEYmk4R0FvV29mRUxNClVlaXZmSkh1dk5CZVRTaVdIUG5Ydmh0RStndms3TWY0aC9zOXg5QXlFMm5RZHIwTDhad045SzFmbEJ2eG41Wk0KQjlrUjRtd3RhT2NscnVsbUc3N1lUZUdRc1lwckhmSEg5aTh2bHY3TmtVdlBiZTdoVHp3K0huVllQVEkwSi9GSgpieGhXdGFCd01pbTFaTnpwZEpJajVZZWRUSElwWjZyVjRrZmNWVkNGNWFOdE9xWnhjVUJMc2tiQmJuVXJna3ZxCjRDMVNzTzdKaWIrUmk1K1h5RHRZalRDcXJpbWl1bGQxTjhxQXdaWi80WHFxWUVhaUVXRXUxcm51UTY2UytmZGUKTWJySThzdHA5Y3ppVjE4OGh2QndFeE5RZHpvSGNyR1c5cUJwS2gzaWtNMG14MldwYnN6NEZJNmJaSm0wM1J4Vgp5VVFIdkhRSVduYUFRQmlwOG45UnpOdW93ZmVucmpxWFJ2SlVOdVlVYjhPdWd1MWZnamxjem5TMG1vNTM1blRuCk5jMVYzRUtVREJ6UklTeTVZR3p3SG9JdkhRVDdNVU5tQXFkQkpORnoxQ2lkL3gzRVJEam0zdUptM3NlQ3VBNU8KUmlPY1dmUWl2NHA3eHpVWjZXcGNqOFQ2QnRTNEdEU0RVZ2ZHQXBMM0M4TzdUaHZ6dFBjb1BLNXdKd1l5dGlwUQoramlOSkJzcFlQV0dOTWhpTmZveFd6ZTl3WjZmandJREFRQUJBb0lDQUNETWhrb3dXODhXNUdIcUdkczRJZytWCmVJZTV4U2x4MFpVbUlPRjRFY0VncEhTTVY0Sy9qR3o1dERpN3QrZFJHL2p4T0RKRDl6UG01RlQ0eVkrS0g3ZzgKYmtrTnMyOTFJZjJMV0N2SFlteFZDNXp1dkNmU3BwM3VucVZlZE1MQzF4VzljSUc1YldMb0tySENkZlRkUmlFagowbUdpSmFQMFg2L0labzdUdFg4aEVXTzdMNzRLQjNHQUZzYjlnVGRZbTc2WHZYckZQK2NEdmM2a1Avc01BVExQClJidGgrOHp3dFY4OE93R2t1Kzl3WGdlWlp1UkYraHNKRU4wbjh3dTNrOUNLaG9mTjlZbXpZNWJEWGdWZUpnVEwKNWpvdzFHTit6TS93UnQ5OE5EaUZzbndTRm56TG8zT0VkYVpLVS94WjV0Nnp5VjdMUkhBTzFJS3dub2hmaXRVZQpPakQ2cEpxL0t1OGk2THBWUjZaeVNMT3ZRT2UrK1V3T2tCeWs0anVza215TG1vdEtYaUcvSFZjaDRIOHB3U1pJCmMxUm44Y2xhYmxRV1FCa2ZZUzJ4SEg5NEtpMEF6MHFjV1grdVlSWHpwWXJKOGhWWFFlWXVmbUE0Q3RUb1NFWkcKdjlLNXFzaTJWRi9iNzBFVWlkSEh6YXdXU0hlVE1sZEIvTzdMQlFYaDM5cE1wekhhOEpFQnJqU0FHTzRvYnNxSwpabkVSSVZQMHA0ZjVTSEFmdGtxbjdyb0JyVDVxRmRNRU0rbWlJRENPcFg1bXpKU29ZK3hDdU1GZE5BMzVvaCtmCmtwMmxGU0UrbmlucWV3ZWVUQW0zZFVCQURpbXdRcEVQYitaZ0lNcnRJSlZqc2NybW13R1dJanVOc25LaU11d3kKZVFJcHloU2VEMGJLczFINVJqbWhBb0lCQVFEd0FLVGM4QVRya2hJSUxTSUlUMis3eE40aExoV3BJOUFUMUxZQQpacTNIYVNOajFlVHd4RkUwZlkyaFc3ZEhOcUxHMEptUjFXVlY4Y2x4aGRERHk0WlN1OFFqK1g3QndJdU5iTHJEClN0ZEFQMHcxM0dZZnNIZ1BxQmtyejZIQ3V4bHl0cGQwVW1ydzZpaEZNeXdIakNITnFOaEN3c0tjWGVLc3MzTHYKNHVBYmhkeVlvMXBMckphNzQ0c0RqRVZQMkhFZFA3M0NlNDZnVjU1SjNtK2IvUXhmWEQ4dE9Sb3RENXZDaXFmdApjR0VDUVJEd3ZWMUY4NnZKdURiVzFGQ1RKelB2T2c1bFpNaXZDUndBNWRxYmo4NW1WUXN3UE41K1JGYXYrVkYvCndvbnVWR1crbHYxQXBVYjhOOGx1eU9vSWNxcTNxbmVuSWk5Z3NOdVQxa1NLOFhEZkFvSUJBUURmYUJia1JwL3AKMEkzODdFRkljQVQvMTAvR1RUaWpDUitCZzluYjh2OWVjZ3J6QUROb0ZQdXNOSmJKelRoNkQwQ0ZZRW5KbVhrWQo2Q04yRWgzYjFWaTd1d3FCbDh1Z2psZ2xCZmx0TExLVm9uQlhaemduZUtFa2NkbHRhVXl0OENVdXlhQXIvdHdHCmtiMTlaMElqMWZOd3lMbTBVNHFnc2YwNHhPNnNYUjFTODhDTmxWTXJ1Y3ZDR09CUkppVExQKzZTSmJOcnpZQlAKQUFiYWlvVUJ0T0tkNHAwSWUvNXM5b1h0ZVpqVDJIbFA3M3B0cndRaWpic1QwNkhtVzExTGhtS0pVVkhnWERIbgptd2kzcUFUZTE5dURwdzJqZDB4dCtkVjIxTGhIY3JSOE1MUDMzUkNwSGxjdWR4YnNwSWo1dnRXdVU2V0xVc2FaCkJrT3g3UmZSUmpkUkFvSUJBRkkwNWtPSE15ZzljRSs4cGR1UzJnTEcvQThCYWduMWFtQmdpN2EzZE83STVJWmQKelgxcXdTWHBtNG1aa0wyanlUMndWZW5OM2xnQjZhNG8xOGs0L1ZsNVYwVzdQOSs5eEE4OUh2dWx0dlVhdVUvNQpua0ZjZ01OY0lNTVE2NmQzenMrc0cxU01wblMrdit4MENyRExId2tDdkpDaGhXZHFBU3FHak9mK0hpVlBSTEJECnc3b0g4OW1IcHlZZjlkM1RsV3NmV2pBemdqY0p5LzRoWXJsYmc5Rm1GMzIyQVhGTjExeGJnZ21pWkpnUkVXeGsKY0g1MWFISS8xd2plMEhxWEF3TCtMOUFySlZKUEhIaHlRdDdsOHh5NkpJcnhUb1NSZzkvaTFqZWN1d0lYaG9JeAoxYTArNzRHVTJqcElOMkdOWlV4ajUzZ29EWEpoSWRVUm40aTRDcUVDZ2dFQkFOUFp2aE44a1hwRXhkQjVMVE1HCjN3YkpZNkhWYW9iWVNPTWxhRHQyQkFuSXRXOVgybWV4dGpMSHI5SHY1TVdDbnhtYmhIMURKeDJpVExaVFdiTTAKYmkrZm44ZmliVHQwb0V1RGpkS2tsemprVUFuaUhOTDVSajNzSkZYbmk4cEp0c2pXZENna1J2dUh5cHdYaGhXNwpkbDJXU3R1Z2VRNEhtdXZ4ZTY5Qm9XUWZONUpMYnhKQTN1TFJlaTRac0x4NGhNQmNOZmRkYVhZQXZYOFI2aTBECkhmN0FmVThsWGRCd09mSkc0OURJTDhuSWUxMTFvTU12aVo2MGlvdUtTajhyVVZlTUlNdFVRaEt4NXFOYUZqeEgKajZjWmpBcGVQOER1TUNtK2NIMTRYWVNESHJaR0VOMStvd2V4OExBNUdwZFNDd21EMHJENnJzOC9ySVFXSkFiVQp3ZkVDZ2dFQkFMZFMra1QyVTU2QjdzWGwybUVwaDdsSzd4MWdqM3hTdXR2MXlVV05HVnA5aldwNlVsU1hjaEJwCjY3azFtQU1icEVPaEdVaGN0RjZZdWlHSWFQOUVvSFFkTjlHYlNqY2pOMlZvbGwyelI2NVhKdUU0WDFXQ0tscnAKeitpSThCb2tTY2haZTBGT2FIYmJpeEtMRVF0Um94RXRVKzFPc1pwekxOaDMyOFd0WXFFZWlSK1VFR0JEVVR1MwpSdDlTUzJKb25NU1NUajBFT0NVTDhmcGEyUjJSL1BGMHcrb0NjRHlLaWlpZGg1bWJGcXBJK2VVVDB3ekdyNFdoCmlhdkZpbkRaWlJCYjVsbnpzVjVPczhWaHNBWElWNno4WEpISGpLVjdoNmNpRkFYOVNsM3B3UjUyVzZtYlRZcS8KMXRLd0lLWDQvWnlQY1crdFhUdFJYdEpUbk55b01ZMD0KLS0tLS1FTkQgUFJJVkFURSBLRVktLS0tLQo=</prv>
   </cert>
   <syslog/>
+  <Pischem>
+    <caddy version="1.3.7" persisted_at="1768837092.18" description="Caddy Reverse Proxy">
+      <general>
+        <enabled>0</enabled>
+        <EnableLayer4>0</EnableLayer4>
+        <HttpPort/>
+        <HttpsPort/>
+        <TlsEmail/>
+        <TlsAutoHttps/>
+        <TlsDnsProvider/>
+        <TlsDnsApiKey/>
+        <TlsDnsPropagationTimeout>0</TlsDnsPropagationTimeout>
+        <TlsDnsPropagationTimeoutPeriod/>
+        <TlsDnsPropagationDelay/>
+        <TlsDnsPropagationResolvers/>
+        <TlsDnsEchDomain/>
+        <accesslist/>
+        <ClientIpHeaders/>
+        <DisableSuperuser>0</DisableSuperuser>
+        <GracePeriod>10</GracePeriod>
+        <HttpVersions>h1,h2</HttpVersions>
+        <timeout_read_body/>
+        <timeout_read_header/>
+        <timeout_write/>
+        <timeout_idle/>
+        <LogCredentials>0</LogCredentials>
+        <LogAccessPlain>0</LogAccessPlain>
+        <LogAccessPlainKeep>10</LogAccessPlainKeep>
+        <LogLevel/>
+        <DynDnsSimpleHttp/>
+        <DynDnsInterface/>
+        <DynDnsInterval/>
+        <DynDnsIpVersions/>
+        <DynDnsTtl/>
+        <DynDnsUpdateOnly>0</DynDnsUpdateOnly>
+        <AuthProvider/>
+        <AuthToDomain/>
+        <AuthToPort/>
+        <AuthToTls>0</AuthToTls>
+        <AuthToUri/>
+        <CopyHeaders/>
+      </general>
+      <reverseproxy/>
+    </caddy>
+  </Pischem>
 </opnsense>
