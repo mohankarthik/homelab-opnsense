@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.1</username>
-    <description>/api/unbound/settings/del_host_override/ea00e0e6-cfb8-495f-aa1f-9837d1ac37bd made changes</description>
-    <time>1768837689.24</time>
+    <description>/api/unbound/settings/set_host_override/39e73614-828b-4353-b14d-7a8cb2f804d1 made changes</description>
+    <time>1768837702.39</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1411,7 +1411,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768837689.24" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768837702.39" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1623,12 +1623,12 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <host uuid="39e73614-828b-4353-b14d-7a8cb2f804d1">
           <enabled>1</enabled>
           <hostname>pve</hostname>
-          <domain>internal</domain>
+          <domain>local</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
           <ttl>3600</ttl>
-          <server>192.168.0.11</server>
+          <server>192.168.0.1</server>
           <txtdata/>
           <description/>
         </host>
