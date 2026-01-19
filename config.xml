@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.1</username>
-    <description>/api/caddy/reverse_proxy/add_handle/ made changes</description>
-    <time>1768837882.72</time>
+    <description>/api/unbound/settings/set_host_override/8bad4ac9-953f-4d0e-a1ec-c269c3b7b03d made changes</description>
+    <time>1768838978.70</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1411,7 +1411,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.13" persisted_at="1768837790.71" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1768838978.70" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1671,7 +1671,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <host uuid="8bad4ac9-953f-4d0e-a1ec-c269c3b7b03d">
           <enabled>1</enabled>
           <hostname>opnsense</hostname>
-          <domain>local</domain>
+          <domain>home.arpa</domain>
           <rr>A</rr>
           <mxprio/>
           <mx/>
