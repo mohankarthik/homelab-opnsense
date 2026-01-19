@@ -938,7 +938,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.0.1</username>
     <description>/api/caddy/reverse_proxy/add_reverse_proxy/ made changes</description>
-    <time>1768837837.22</time>
+    <time>1768837846.88</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,7 +1843,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </cert>
   <syslog/>
   <Pischem>
-    <caddy version="1.3.7" persisted_at="1768837837.22" description="Caddy Reverse Proxy">
+    <caddy version="1.3.7" persisted_at="1768837846.88" description="Caddy Reverse Proxy">
       <general>
         <enabled>1</enabled>
         <EnableLayer4>0</EnableLayer4>
@@ -1922,6 +1922,23 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         <reverse uuid="100d06e9-add7-4588-b9ff-d981769d1b76">
           <enabled>1</enabled>
           <FromDomain>sw1.local</FromDomain>
+          <FromPort>443</FromPort>
+          <accesslist/>
+          <basicauth/>
+          <description/>
+          <DnsChallenge>0</DnsChallenge>
+          <DnsChallengeOverrideDomain/>
+          <CustomCertificate/>
+          <AccessLog>0</AccessLog>
+          <DynDns>0</DynDns>
+          <AcmePassthrough/>
+          <DisableTls>0</DisableTls>
+          <ClientAuthMode/>
+          <ClientAuthTrustPool/>
+        </reverse>
+        <reverse uuid="04db1094-cf2b-460d-ad76-ab1d70785aed">
+          <enabled>1</enabled>
+          <FromDomain>ap1.local</FromDomain>
           <FromPort>443</FromPort>
           <accesslist/>
           <basicauth/>
