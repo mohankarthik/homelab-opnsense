@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.1</username>
-    <description>/api/caddy/reverse_proxy/set_reverse_proxy/100d06e9-add7-4588-b9ff-d981769d1b76 made changes</description>
-    <time>1768839017.73</time>
+    <description>/api/caddy/reverse_proxy/set_reverse_proxy/04db1094-cf2b-460d-ad76-ab1d70785aed made changes</description>
+    <time>1768839023.87</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,7 +1843,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </cert>
   <syslog/>
   <Pischem>
-    <caddy version="1.3.7" persisted_at="1768839017.73" description="Caddy Reverse Proxy">
+    <caddy version="1.3.7" persisted_at="1768839023.87" description="Caddy Reverse Proxy">
       <general>
         <enabled>1</enabled>
         <EnableLayer4>0</EnableLayer4>
@@ -1938,7 +1938,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
         </reverse>
         <reverse uuid="04db1094-cf2b-460d-ad76-ab1d70785aed">
           <enabled>1</enabled>
-          <FromDomain>ap1.local</FromDomain>
+          <FromDomain>ap1.home.arpa</FromDomain>
           <FromPort>443</FromPort>
           <accesslist/>
           <basicauth/>
