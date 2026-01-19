@@ -938,7 +938,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   <revision>
     <username>root@192.168.0.1</username>
     <description>/api/caddy/reverse_proxy/add_handle/ made changes</description>
-    <time>1768837865.71</time>
+    <time>1768837882.72</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,7 +1843,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </cert>
   <syslog/>
   <Pischem>
-    <caddy version="1.3.7" persisted_at="1768837865.71" description="Caddy Reverse Proxy">
+    <caddy version="1.3.7" persisted_at="1768837882.72" description="Caddy Reverse Proxy">
       <general>
         <enabled>1</enabled>
         <EnableLayer4>0</EnableLayer4>
@@ -2048,6 +2048,48 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
           <header/>
           <HandleDirective>reverse_proxy</HandleDirective>
           <ToDomain>192.168.0.5</ToDomain>
+          <ToPort>80</ToPort>
+          <ToPath/>
+          <ForwardAuth>0</ForwardAuth>
+          <HttpTls>0</HttpTls>
+          <HttpVersion/>
+          <HttpKeepalive/>
+          <HttpNtlm>0</HttpNtlm>
+          <HttpTlsInsecureSkipVerify>0</HttpTlsInsecureSkipVerify>
+          <HttpTlsTrustedCaCerts/>
+          <HttpTlsServerName/>
+          <lb_policy/>
+          <lb_retries/>
+          <lb_try_duration/>
+          <lb_try_interval/>
+          <PassiveHealthFailDuration/>
+          <PassiveHealthMaxFails/>
+          <PassiveHealthUnhealthyStatus/>
+          <PassiveHealthUnhealthyLatency/>
+          <PassiveHealthUnhealthyRequestCount/>
+          <description/>
+          <health_uri/>
+          <health_upstream/>
+          <health_port/>
+          <health_interval/>
+          <health_passes/>
+          <health_fails/>
+          <health_timeout/>
+          <health_status/>
+          <health_body/>
+          <health_follow_redirects>0</health_follow_redirects>
+        </handle>
+        <handle uuid="797421a3-9c84-49f5-a75a-dfa17a0a071a">
+          <enabled>1</enabled>
+          <reverse>04db1094-cf2b-460d-ad76-ab1d70785aed</reverse>
+          <subdomain/>
+          <HandleType>handle</HandleType>
+          <HandlePath/>
+          <accesslist/>
+          <basicauth/>
+          <header/>
+          <HandleDirective>reverse_proxy</HandleDirective>
+          <ToDomain>192.168.0.6</ToDomain>
           <ToPort>80</ToPort>
           <ToPath/>
           <ForwardAuth>0</ForwardAuth>
