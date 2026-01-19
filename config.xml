@@ -106,7 +106,7 @@
     <firmware version="1.0.1" persisted_at="1764656202.72">
       <mirror/>
       <flavour/>
-      <plugins>os-ddclient,os-git-backup,os-mdns-repeater,os-sftp-backup</plugins>
+      <plugins>os-caddy,os-ddclient,os-git-backup,os-mdns-repeater,os-sftp-backup</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1768837092.18</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1768837092.72</time>
   </revision>
   <OPNsense>
     <wireguard>
