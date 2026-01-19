@@ -937,8 +937,8 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.1</username>
-    <description>/api/caddy/reverse_proxy/add_reverse_proxy/ made changes</description>
-    <time>1768837846.88</time>
+    <description>/api/caddy/reverse_proxy/add_handle/ made changes</description>
+    <time>1768837865.71</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,7 +1843,7 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
   </cert>
   <syslog/>
   <Pischem>
-    <caddy version="1.3.7" persisted_at="1768837846.88" description="Caddy Reverse Proxy">
+    <caddy version="1.3.7" persisted_at="1768837865.71" description="Caddy Reverse Proxy">
       <general>
         <enabled>1</enabled>
         <EnableLayer4>0</EnableLayer4>
@@ -2014,6 +2014,48 @@ AAAEAnznn1l+77elE1AoZz2hsZOmj4Av9YIyz7TCjQVTZm9TNk2iFaNWOOuyr7CUfjxLiH&#13;
           <HttpKeepalive/>
           <HttpNtlm>0</HttpNtlm>
           <HttpTlsInsecureSkipVerify>1</HttpTlsInsecureSkipVerify>
+          <HttpTlsTrustedCaCerts/>
+          <HttpTlsServerName/>
+          <lb_policy/>
+          <lb_retries/>
+          <lb_try_duration/>
+          <lb_try_interval/>
+          <PassiveHealthFailDuration/>
+          <PassiveHealthMaxFails/>
+          <PassiveHealthUnhealthyStatus/>
+          <PassiveHealthUnhealthyLatency/>
+          <PassiveHealthUnhealthyRequestCount/>
+          <description/>
+          <health_uri/>
+          <health_upstream/>
+          <health_port/>
+          <health_interval/>
+          <health_passes/>
+          <health_fails/>
+          <health_timeout/>
+          <health_status/>
+          <health_body/>
+          <health_follow_redirects>0</health_follow_redirects>
+        </handle>
+        <handle uuid="8934d3a9-45ec-4bf4-ac26-4272fadb9dd7">
+          <enabled>1</enabled>
+          <reverse>100d06e9-add7-4588-b9ff-d981769d1b76</reverse>
+          <subdomain/>
+          <HandleType>handle</HandleType>
+          <HandlePath/>
+          <accesslist/>
+          <basicauth/>
+          <header/>
+          <HandleDirective>reverse_proxy</HandleDirective>
+          <ToDomain>192.168.0.5</ToDomain>
+          <ToPort>80</ToPort>
+          <ToPath/>
+          <ForwardAuth>0</ForwardAuth>
+          <HttpTls>0</HttpTls>
+          <HttpVersion/>
+          <HttpKeepalive/>
+          <HttpNtlm>0</HttpNtlm>
+          <HttpTlsInsecureSkipVerify>0</HttpTlsInsecureSkipVerify>
           <HttpTlsTrustedCaCerts/>
           <HttpTlsServerName/>
           <lb_policy/>
